@@ -93,12 +93,12 @@ nav a:hover {
 	text-decoration:underline;
 }
 .bluespace-background {
-	background-image: url('media/bluespace.jpg');
+	background-image: url('../media/bluespace.jpg');
 	height:850px;
 	width:960px;
 }
 
-#content_splitter{
+.content_splitter1{
 	padding:0 0 150px 0;
 }
 
@@ -118,7 +118,7 @@ nav a:hover {
 h1 {
 	color:#fff;
 	font-size:30px;
-	padding: 52px 0px 0px 0px;
+	padding: 70px 0px 0px 0px;
 	width:300px;
 	margin-left:0px;
 	user-select: auto;
@@ -148,7 +148,7 @@ ul li {
 	padding-top:2px;
 }
 
-#content_bottom {
+.content_bottom1 {
 	background-color:#fff;
 	width:960px;
 	height:150px;
