@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin:auto;
+}
+
+.clear {
+		clear:both;
+}
+
+
+#logo {
+	position:relative;
+	margin: 40px 0px 0px 60px;
+	padding:0px;
+	float:left;
+}
+
+#logo, h1{
+	text-font:"STHeitiSC";
+	user-select: none;
+	font-size:95px;
+	color: #424141;
+}
+
+#wrapper, header, main, footer {
+	width:960px;
+	height:150px;
+	padding:0px 0px 0px 0px;
+	margin:auto;
+}
+
+
+nav {
+	float:right;
+	margin:0px 60px 0px 0px;
+}
+
+nav ul {
+	position:relative;
+	line-height: 25px;
+	text-decoration: none;
+	float:left;
+	padding:0px;
+	margin:100px 0px 0px 0px;
+}
+
+.dropdown {
+	padding:0px;
+	margin:0px 20px 0px 0px;
+	top:40px;
+}
+
+nav li {
+	list-style-type:none;
+	position:relative;
+	float:left;
+	padding:0px;
+}
+
+nav ul li a {
+	text-decoration:none;
+	font-family:"Comic San MS";
+	font-size:18px;
+	height:20px;
+	padding:10px 13px 10px 13px;
+	display:block;
+	color: #424141;
+}
+
+nav ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 32px;
+	background:#FFFFFF;
+}
+
+nav ul li:hover ul {
+	visibility:visible;
+}
+/*nav li:hover {
+	background:#3788D4;
+}*/
+
+nav ul li:hover ul li a:hover {
+	color:#000000;
+	text-decoration: underline;
+}
+
+nav a:hover {
+	color:#000000;
+	text-decoration:underline;
+}
+.bluespace-background {
+	background-image: url('media/bluespace.jpg');
+	height:850px;
+	width:960px;
+}
+
+#content_splitter{
+	padding:0 0 150px 0;
+}
+
+#text-wrapper {
+	width:480px;
+	margin-left:0px;
+	padding:0 0 0 120px;
+	float:left;
+}
+#content-right-top {
+	padding:122px 120px 0px 670px;
+}
+
+#content-right-bottom {
+	padding:48px 120px 0px 670px;
+}
+h1 {
+	color:#fff;
+	font-size:30px;
+	padding: 52px 0px 0px 0px;
+	width:300px;
+	margin-left:0px;
+	user-select: auto;
+}
+
+p {
+	padding:22px 0px 0px 0px; 
+	color:#fff;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:16px;
+	width:480px;
+	margin:0px;
+}
+	
+
+ul {
+	padding:25px;
+}
+
+ul li {
+	font-size:16px;
+	font-family:"Comic San MS";
+	color:#424141;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	padding-top:2px;
+}
+
+#content_bottom {
+	background-color:#fff;
+	width:960px;
+	height:150px;
+	margin:98px 0 0 0;
+}
